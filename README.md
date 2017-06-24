@@ -8,7 +8,8 @@ This project uses new gradle build system, so, in order to create a Skin:
   * Install Android Studio latest version
   * Install Android SDK 25 or better and be sure to check Android Build Tools 25.0.3 or better
   * Rename the poject manally before openning via Android Studio. (Optional)**
-  * If imported via version control then close the project and remane it manually and then open the project after restarting the IDE (Ignore the ERRORS)**
+  * If imported via VCS then close the project and remane it manually and then open the project after restarting the IDE 
+    (Ignore the ERRORS)**
   * If any issue then again repeat the above process
   * crete your own keystore and mention in the build.gradle
   * Uncompress apkzip file in the asset directory (follow the Assets<README.md)
