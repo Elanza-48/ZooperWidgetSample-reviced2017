@@ -11,7 +11,7 @@ This project uses new gradle build system, so, in order to create a Skin:
   * If imported via VCS then close the project and remane it manually and then open the project after restarting the IDE 
     (Ignore the ERRORS)**
   * If any issue then again repeat the above process
-  * crete your own keystore and mention in the build.gradle
+  * crete your own keystore and mention the path in the build.gradle
   * Uncompress apkzip file in the asset directory (follow the Assets<README.md)
   * Edit AndroidManifest.xml, zooper.xml and string.xml
   * Build
