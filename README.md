@@ -1,4 +1,4 @@
-## Zooper Widget Sample Skin Revices(2017)
+## Zooper Widget Sample Skin Revised(2017)
 
 Full howto on ZW Skins is available here: http://www.zooper.org/wp/android/zw/apk <--(DEPERCIATED)**
 
