@@ -6,9 +6,9 @@
 
 >Extract those and remove the .jet extension from all files.
 
->Collect all the files in one comon Assests folder and subfolders.
+>Gather all the files in one common Assests folder and subfolders.
 
->replace the assets folder in the project with the same folder manually. 
+>Replace the assets folder in the project with the former manually. 
  (make sure to backup the README.md file if you need it).
 
 
