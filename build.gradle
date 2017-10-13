@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
@@ -30,18 +31,7 @@ android {
             assets.srcDirs = ['assets']
         }
     }
-//Include the Keystore.jks here manually or mention in "Project Structure settings'
-    signingConfigs {
-        release {
-            def Properties localProps = new Properties()
-            localProps.load(new FileInputStream(file('local.properties')))
-            storeFile file('C:/Users/Rajarshi_Kundu/KEYSTORE/sample.jks')
-            keyAlias localProps["alias"]
-            storePassword localProps["storePass"]
-            keyPassword localProps["pass"]
-        }
-    }
-
+    
     buildTypes {
         release {
             zipAlignEnabled true
@@ -55,5 +45,6 @@ android {
 allprojects {
     repositories {
         jcenter()
+        mavenCentral()
     }
 }
